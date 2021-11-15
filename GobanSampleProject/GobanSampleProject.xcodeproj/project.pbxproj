@@ -11,12 +11,12 @@
 		3A35C54A1CDBBEE30068F8B3 /* XCParserTestBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A35C5491CDBBEE30068F8B3 /* XCParserTestBase.swift */; };
 		3A35C54C1CDBE4620068F8B3 /* SGFParserCombinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A35C54B1CDBE4620068F8B3 /* SGFParserCombinatorTests.swift */; };
 		3A35C54D1CDBE4CA0068F8B3 /* SGFParserCombinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60082821CDAECCE00C86687 /* SGFParserCombinator.swift */; };
+		948025CE2742767F003B7E27 /* test.sgf in Resources */ = {isa = PBXBuildFile; fileRef = 948025CD2742767F003B7E27 /* test.sgf */; };
 		A1426F381D2448D600AEEE67 /* AB-AE-Tests.sgf in Resources */ = {isa = PBXBuildFile; fileRef = A1426F371D2448D600AEEE67 /* AB-AE-Tests.sgf */; };
 		A1426F391D244A1800AEEE67 /* AB-AE-Tests.sgf in Resources */ = {isa = PBXBuildFile; fileRef = A1426F371D2448D600AEEE67 /* AB-AE-Tests.sgf */; };
 		C31160561E29C740003DC8F6 /* Markup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31160551E29C740003DC8F6 /* Markup.swift */; };
 		C31B552E1C9DD10500B060D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31B552D1C9DD10500B060D8 /* AppDelegate.swift */; };
 		C31B55301C9DD10500B060D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31B552F1C9DD10500B060D8 /* ViewController.swift */; };
-		C31B55331C9DD10500B060D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31B55311C9DD10500B060D8 /* Main.storyboard */; };
 		C31B55351C9DD10500B060D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31B55341C9DD10500B060D8 /* Assets.xcassets */; };
 		C31B55381C9DD10500B060D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31B55361C9DD10500B060D8 /* LaunchScreen.storyboard */; };
 		C31B55411C9DD1B000B060D8 /* GobanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31B55401C9DD1B000B060D8 /* GobanView.swift */; };
@@ -67,12 +67,12 @@
 		3A35C5471CDBBEA80068F8B3 /* SGFValueTypeParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGFValueTypeParserTests.swift; sourceTree = "<group>"; };
 		3A35C5491CDBBEE30068F8B3 /* XCParserTestBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCParserTestBase.swift; sourceTree = "<group>"; };
 		3A35C54B1CDBE4620068F8B3 /* SGFParserCombinatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGFParserCombinatorTests.swift; sourceTree = "<group>"; };
+		948025CD2742767F003B7E27 /* test.sgf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.sgf; sourceTree = "<group>"; };
 		A1426F371D2448D600AEEE67 /* AB-AE-Tests.sgf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "AB-AE-Tests.sgf"; sourceTree = "<group>"; };
 		C31160551E29C740003DC8F6 /* Markup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Markup.swift; sourceTree = "<group>"; };
 		C31B552A1C9DD10500B060D8 /* GobanSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GobanSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31B552D1C9DD10500B060D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C31B552F1C9DD10500B060D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C31B55321C9DD10500B060D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C31B55341C9DD10500B060D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C31B55371C9DD10500B060D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C31B55391C9DD10500B060D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -146,9 +146,9 @@
 			children = (
 				C3DE82271D0CA6EC00FF0289 /* Problem.sgf */,
 				C3B5211E1CD039A400B890B7 /* Lee-Sedol-vs-AlphaGo-20160309.sgf */,
+				948025CD2742767F003B7E27 /* test.sgf */,
 				C31B552D1C9DD10500B060D8 /* AppDelegate.swift */,
 				C31B552F1C9DD10500B060D8 /* ViewController.swift */,
-				C31B55311C9DD10500B060D8 /* Main.storyboard */,
 				C31B55341C9DD10500B060D8 /* Assets.xcassets */,
 				C31B55361C9DD10500B060D8 /* LaunchScreen.storyboard */,
 				C31B55391C9DD10500B060D8 /* Info.plist */,
@@ -280,6 +280,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -300,10 +301,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1426F391D244A1800AEEE67 /* AB-AE-Tests.sgf in Resources */,
+				948025CE2742767F003B7E27 /* test.sgf in Resources */,
 				C31B55381C9DD10500B060D8 /* LaunchScreen.storyboard in Resources */,
 				C31B55351C9DD10500B060D8 /* Assets.xcassets in Resources */,
 				C3B5211F1CD039A400B890B7 /* Lee-Sedol-vs-AlphaGo-20160309.sgf in Resources */,
-				C31B55331C9DD10500B060D8 /* Main.storyboard in Resources */,
 				C3DE82281D0CA6EC00FF0289 /* Problem.sgf in Resources */,
 				D6C592DF1CE18C2E008BFB76 /* SGFPropertiesFF4.txt in Resources */,
 			);
@@ -381,14 +382,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C31B55311C9DD10500B060D8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C31B55321C9DD10500B060D8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C31B55361C9DD10500B060D8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -509,12 +502,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GobanSampleProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BEM.GobanSampleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -525,12 +520,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = GobanSampleProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BEM.GobanSampleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

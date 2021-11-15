@@ -64,7 +64,7 @@ class GobanManager: NSObject, GobanTouchProtocol, CAAnimationDelegate {
                     }
                     
                     if #available(iOS 10.0, *), self?.hapticFeedback == true {
-                        let hapticFeedbackGenerator = UIImpactFeedbackGenerator(style: UIImpactFeedbackStyle.light)
+                        let hapticFeedbackGenerator = UIImpactFeedbackGenerator(style: UIImpactFeedbackGenerator.FeedbackStyle.light)
                         hapticFeedbackGenerator.impactOccurred()
                     }
                 } else {
@@ -197,7 +197,7 @@ class GobanManager: NSObject, GobanTouchProtocol, CAAnimationDelegate {
         opacityAnimation.toValue = 0.0
         opacityAnimation.delegate = self
         opacityAnimation.duration = animationDuration
-        opacityAnimation.fillMode = kCAFillModeForwards
+        opacityAnimation.fillMode = CAMediaTimingFillMode.forwards
         opacityAnimation.isRemovedOnCompletion = false
         
         if completion != nil {

@@ -100,7 +100,7 @@ extension AnySequence {
 
 // convenience was of creating an AnySequence from a single Token.
 func anySequenceOfOne<A>(_ x: A) -> AnySequence<A> {
-    return AnySequence(IteratorOverOne(_elements: x))
+    return AnySequence([x])
 }
 
 // empty sequence
